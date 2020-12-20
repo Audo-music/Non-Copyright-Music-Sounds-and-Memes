@@ -1,3 +1,5 @@
+
+
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
 
 html,
@@ -90,16 +92,20 @@ body {
   font-weight:600;
   text-transform: uppercase
 }
-
-
-.text-dadgjirk{
-  color: white;
-  text-decoration: none;
+.audio{
+  background: #F5F5F5;
+  border-radius: 0px;
+  width: 100%;
+  
 }
-.navbar navbar-expand-sm bg-dark navbar-dark{
-  position: fixed;
+
+.btn-group{
+  width: 100%;
+  border-radius: 0px;
 
 }
-.carousel-example-1z{
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+
+audio::-webkit-media-controls-panel {
+  background: #F5F5F5;
+ 
 }
