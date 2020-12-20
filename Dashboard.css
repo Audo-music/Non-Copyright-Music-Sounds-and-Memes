@@ -102,7 +102,7 @@ body {
 .btn-group{
   width: 100%;
   border-radius: 0px;
-
+  background: #F5F5F5;
 }
 
 audio::-webkit-media-controls-panel {
