@@ -94,13 +94,15 @@ body {
 }
 .audio{
   background: #F5F5F5;
+  border-radius: 0px;
   width: 100%;
   
 }
 
 .btn-group{
   width: 100%;
-  background: #F5F5F5;
+  border-radius: 0px;
+
 }
 
 audio::-webkit-media-controls-panel {
