@@ -11,6 +11,16 @@ body {
   font-weight: 400;
 }
 
+.py-5 {
+  background-image: url("https://images.prismic.io/buzzsprout/06fd34b4c2d73e8e104196b1227469811a05f768_royalty-free-music2x.png?auto=compress,format");
+}
+.col-lg-6{
+  background: #21232C;
+  padding: 5px;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-shadow: 0px 3px 5px #352432;
 }
  
 .wrapper {
@@ -146,14 +156,4 @@ div.scrollmenu::-webkit-scrollbar-thumb{
     background: rgb(131,58,180);
 background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 }
-.py-5 {
-  background-image: url("https://images.prismic.io/buzzsprout/06fd34b4c2d73e8e104196b1227469811a05f768_royalty-free-music2x.png?auto=compress,format");
-}
-.col-lg-6{
-  background: #21232C;
-  padding: 5px;
-  color: white;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-shadow: 0px 3px 5px #352432;
-}
+
