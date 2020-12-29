@@ -3,7 +3,7 @@
 html,
 body {
   -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: border-box;
   height: 100%;
   width: 100%; 
   background: #FFF;
@@ -27,6 +27,22 @@ audio::-webkit-media-controls-panel {
   border-radius: 0px;
 
 }
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
 
 div.scrollmenu {
   background-color: #21232C;
@@ -71,6 +87,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 .py-5 {
   background-image: url("https://images.prismic.io/buzzsprout/06fd34b4c2d73e8e104196b1227469811a05f768_royalty-free-music2x.png?auto=compress,format");
   width: 100%;
+  background-size:cover;
 
 }
 .col-lg-6{
